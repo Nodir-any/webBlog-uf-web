@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+*{
+	font-family: 'Lora', serif; 
+	padding: 0;	
+	margin: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0;
+	background-attachment: fixed;
+	background-image: url(img/bg.jpeg);
+}
+
+.nav-bar{
+	padding: 3rem;
+	margin: 1rem 5rem;
+	font-size: 1.2rem;
+	display: flex;
+	text-align: center;
+	background: rgba(0,0,0,0.45);
+	border-radius: 7px;
+}
+
+.main-p{
+	margin: 80px 40px;
+	padding: 60px 20px;
+	text-align: center;
+	font-size: 2.2rem;
+	font-weight: 500;
+	color: #293a37;
+}
+
+ul li{
+	display: inline;
+	padding: 0 15px;
+}
+
+ul li a{
+		color: #f0f0e1;
+}
+
+ul li a:hover,ul li a:focus{
+	color: #cfffbf;
+}
+
+.logo{
+	padding-right: 10vw;
+	font-weight: 400;
+	font-family: 'Gungsuh';
+	color: #cfbfff;
+	
+}
+
+.test{
+	padding: 3rem 2rem;
+	margin: 3rem 0;
+	width: 100%;
+	height: 100%;
+	color: #000;
+	text-align: center;
+	background: #eeeeee;
+	columns: 25ch 3;
+	overflow: hidden;
+	
+}
+
+.test img{
+	width: 85%;
+	height: 75%;
+	box-shadow: 0 25px 25px;
+	margin-bottom: 40px;
+}
+
+.test2{
+	font-size: 1.3rem;
+	padding: 3rem;
+	margin: 3rem 0;
+	color: #fff;
+	background: rgba(0,0,0,0.35);
+	text-align: center;
+}
+
+.btn{
+	margin-top: 1.2rem;
+	padding: 5px 15px; 
+	background: #cfbfff;
+	color: #333;
+	font-size: 18px;
+	border: none;
+	border-radius: 4px;
+}
+
+.btn:hover, .btn:focus{
+	background-color: #cfffbf;
+	transition: .3s;
+}
+
+.more-info{
+	display: none;
+}
+
+.more-info.btn{
+	display: block;
+	background: none;
+}
+
+footer{
+	background-color: #293a37;
+	height: 10rem;
+}
+
+.quick-nav{
+	display: block;
+	padding: 25px 20%;
+	margin: 10px 0px;
+
+}
+
+.quick-nav a{
+	color: white;
+	font-weight: 300;
+}
+
+#contact{
+	display: block;
+	float: right;
+
+}
+
+#contact input{
+	padding: 10px 20px;
+	position: right;
+}
+@media screen and (max-width: 600px){
+	#header .main-p{
+		color: #fff;
+	}
+	
+	.test img{
+		margin-bottom: 30px;
+	}
+	
+	footer{
+		height: 24%;
+	}
+}
