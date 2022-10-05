@@ -116,6 +116,10 @@ footer{
 	height: 10rem;
 }
 
+.footer-cols{
+	columns-count: 3;
+}
+
 .quick-nav{
 	display: block;
 	padding: 25px 20%;
